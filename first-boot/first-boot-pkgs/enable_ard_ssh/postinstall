@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Enable SSH
+
+/usr/sbin/systemsetup -f -setremotelogin on
+
+# Enable ARD for our Local Admin user
+
+/System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate -configure -access -on -users admin -privs -all -restart -agent

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+DOCKUTIL=/usr/local/bin/dockutil
+
+$DOCKUTIL --remove all
+
+$DOCKUTIL --add '/Applications/Google chrome.app' --no-restart
+
+$DOCKUTIL --add '/Applications/Safari.app' --no-restart
+
+$DOCKUTIL --add '/Applications/Microsoft Office 2011/Microsoft Word.app' --no-restart
+
+$DOCKUTIL --add '/Applications/Microsoft Office 2011/Microsoft Excel.app' --no-restart
+
+$DOCKUTIL --add '/Applications/Keynote.app' --no-restart
+
+$DOCKUTIL --add '/Applications' --no-restart
+
+$DOCKUTIL --add '~/Downloads'
+
+exit 0

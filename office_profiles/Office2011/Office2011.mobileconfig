@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.microsoft.office</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>14\FirstRun\SetupComplete</key>
+								<integer>1</integer>
+								<key>14\UserInfo\UserName</key>
+								<string>User</string>
+								<key>14\UserInfo\UserOrganization</key>
+								<string>Some Company</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.ad54dc43-4c6a-4893-b33a-f56e39df5b2c.alacarte.customsettings.6aaf3c44-e7e3-4e72-8607-d67171d32648</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>6aaf3c44-e7e3-4e72-8607-d67171d32648</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.microsoft.office
+
+Git revision: 1d30395cd4</string>
+	<key>PayloadDisplayName</key>
+	<string>MCXToProfile: com.microsoft.office</string>
+	<key>PayloadIdentifier</key>
+	<string>Office2011</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>ad54dc43-4c6a-4893-b33a-f56e39df5b2c</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

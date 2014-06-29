@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"      "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Packages</key>
+    <array>
+        <string>first-boot-pkgs/autotime_zone/AutoTimeZone.pkg</string>
+        <string>first-boot-pkgs/enable_ard_ssh/Enable_ARD_SSH.pkg</string>
+        <string>first-boot-pkgs/network_time/Enable_Network_Time.pkg</string>
+        <string>first-boot-pkgs/printer/Configure_HP_Printer.pkg</string>
+        <string>first-boot-pkgs/set_timezone/Set_UK_Timezone.pkg</string>
+        <string>first-boot-pkgs/Office 2011/Office Installer-14.3.0.pkg</string>
+        <string>first-boot-pkgs/Office 2011/Office 2011 14.4.2 Update.pkg</string>
+    </array>
+    <key>Name</key>
+    <string>first-boot.pkg</string>
+    <key>Identifier</key>
+    <string>com.grahamgilbert.first-boot-pkg</string>
+    <key>Version</key>
+    <string>2.4</string>
+</dict>
+</plist>

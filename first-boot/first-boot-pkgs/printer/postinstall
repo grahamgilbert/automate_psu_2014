@@ -1,0 +1,27 @@
+#!/bin/bash
+# Variables. Edit these.
+printername="laserjet_p4014"
+location="First Floor"
+gui_display_name="HP LaserJet P4014"
+address="10.50.1.243"
+driver_ppd="/Library/Printers/PPDs/Contents/Resources/HP LaserJet P4010_P4510 Series.gz"
+# Populate these options if you want to set specific options for the printer. E.g. duplexing installed, etc.
+option_1=""
+option_2=""
+option_3=""
+# Stop editing
+# Now we can install the printer.
+/usr/sbin/lpadmin \
+        -p "$printername" \
+        -L "$location" \
+        -D "$gui_display_name" \
+        -v lpd://"${address}" \
+        -P "$driver_ppd" \
+        -o "$option_1" \
+        -o "$option_2" \
+        -o "$option_3" \
+        -o printer-is-shared=false \
+        -o printer-error-policy=abort-job \
+        -E
+# Enable and start the printers on the system (after adding the printer initially it is paused).
+/usr/sbin/cupsenable $(lpstat -p | grep -w "printer" | awk '{print$2}')

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.apple.SetupAssistant</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>DidSeeCloudSetup</key>
+								<true/>
+								<key>LastSeenCloudProductVersion</key>
+								<string>10.9.3</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Disable iCloud Assistant</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.5f7c40ad-9da3-4d7d-8cd1-aead44e9164f.alacarte.customsettings.314cf0d9-1c0f-478c-8099-66a4bfef69b3</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>314cf0d9-1c0f-478c-8099-66a4bfef69b3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.apple.SetupAssistant</string>
+	<key>PayloadDisplayName</key>
+	<string>Disable iCloud Assistant</string>
+	<key>PayloadIdentifier</key>
+	<string>com.grahamgilbert.icloud_assistant</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5f7c40ad-9da3-4d7d-8cd1-aead44e9164f</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

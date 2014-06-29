@@ -1,0 +1,7 @@
+#!/bin/sh
+
+/usr/sbin/systemsetup -setusingnetworktime on
+
+/usr/sbin/systemsetup -setnetworktimeserver time.apple.com
+
+/usr/sbin/ntpdate -u time.apple.com

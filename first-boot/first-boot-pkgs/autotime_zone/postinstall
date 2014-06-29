@@ -1,0 +1,17 @@
+#!/bin/bash
+# uuid for Physical machines
+uuid=`ioreg -rd1 -c IOPlatformExpertDevice | grep -E '(UUID)' | awk -F'\"' '{print $4}'`
+
+#macaddress for VMs
+mac=`ifconfig en0 |grep ethe| awk -F'ether ' '{print $2}'|sed s/://g`
+/bin/launchctl unload /System/Library/LaunchDaemons/com.apple.locationd.plist
+/usr/bin/defaults write /private/var/db/locationd/Library/Preferences/ByHost/com.apple.locationd.$uuid LocationServicesEnabled -int 1
+/usr/bin/defaults write /private/var/db/locationd/Library/Preferences/ByHost/com.apple.locationd.$mac LocationServicesEnabled -int 1
+/usr/bin/defaults write /private/var/db/locationd/Library/Preferences/ByHost/com.apple.locationd.notbackedup.$uuid LocationServicesEnabled -int 1
+/usr/bin/defaults write /private/var/db/locationd/Library/Preferences/ByHost/com.apple.locationd.notbackedup.$mac LocationServicesEnabled -int 1
+/usr/sbin/chown -R _locationd:_locationd /var/db/locationd
+/bin/launchctl load /System/Library/LaunchDaemons/com.apple.locationd.plist
+
+/usr/bin/defaults write /Library/Preferences/com.apple.timezone.auto Active -bool True
+
+exit 0

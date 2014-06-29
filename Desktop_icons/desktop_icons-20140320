@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cp /Library/Management/Desktop_Icons/File\ Server.afploc ~/Desktop/File\ Server.afploc

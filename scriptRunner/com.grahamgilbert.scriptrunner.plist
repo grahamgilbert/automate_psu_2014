@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.grahamgilbert.scriptrunner</string>
+  <key>ProgramArguments</key>
+  <array>
+      <string>/usr/local/bin/scriptRunner.py</string>
+      <string>--once</string>
+      <string>/Library/Management/scriptRunner/once</string>
+      <string>--every</string>
+      <string>/Library/Management/scriptRunner/every</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+</dict>
+</plist>
