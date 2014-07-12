@@ -10,6 +10,7 @@ All of the packages here were made using [The Luggage](https://github.com/unixor
 * [The Luggage: Further automation](http://grahamgilbert.com/blog/2013/08/19/the-luggage-further-automation)
 * [Using MCX with Office 2011](http://www.officeformachelp.com/office/administration/mcx)
 * [Understanding payload free packages](http://derflounder.wordpress.com/2014/06/01/understanding-payload-free-packages/)
+* [Apple Installer bundle-style package script variables](https://gist.github.com/Jaharmi/cb9aa0e19b80279c17e8)
 * [Building simple packages with Packages](http://derflounder.wordpress.com/2014/05/02/building-simple-packages-with-packages/)
 * [Prepare Office 2011 for InstaDMG / AutoDMG](http://www.nbalonso.com/prepare-office-sp3-for-instadmg/)
 * [Making packages with AutoPkg](http://grahamgilbert.com/blog/2014/06/30/making-packages-with-autopkg/)
