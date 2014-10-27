@@ -17,5 +17,3 @@ $DOCKUTIL --add '/Applications/Keynote.app' --no-restart
 $DOCKUTIL --add '/Applications' --no-restart
 
 $DOCKUTIL --add '~/Downloads'
-
-exit 0
